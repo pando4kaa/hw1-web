@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anastasiia Tuhai">
+    <title>Форма для додавання викладача</title>
+</head>
+<body>
+    <h2>Форма для додавання викладача</h2>
+    <h3>Введіть дані:</h3>
+    <form>
+        <label for="fname">Ім'я:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Прізвище:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <label for="gender">Стать:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Чоловіча</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Жіноча</label><br>
+
+        <label for="birthdate">Дата народження:</label><br>
+        <input type="date" id="birthdate" name="birthdate" max="2002-12-31"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="phone">Телефон:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        placeholder="063-435-3568"><br>
+
+        <label for="bgcolor">Бажаний колір фону:</label><br>
+        <input type="color" id="bgcolor" name="bgcolor"><br>
+
+        <label for="country">Країна:</label><br>
+        <input type="text" id="country" name="country"><br>
+
+        <label for="city">Місто:</label><br>
+        <input type="text" id="city" name="city"><br>
+
+        <label for="comments">Коментар:</label><br>
+        <textarea id="comments" name="comments" rows="6" cols="20"
+        placeholder="Ви можете додати якийсь коментар сюди."></textarea><br>
+
+        <input type="submit" value="Надіслати">
+    </form>
+</body>
+</html>
