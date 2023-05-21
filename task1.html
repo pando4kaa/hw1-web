@@ -11,41 +11,61 @@
     <h2>Форма для додавання викладача</h2>
     <h3>Введіть дані:</h3>
     <form>
-        <label for="fname">Ім'я:</label><br/>
-        <input type="text" id="fname" name="fname"/><br/>
-        <label for="lname">Прізвище:</label><br>
-        <input type="text" id="lname" name="lname"/><br/>
+        <section>
+            <label for="fname">Ім'я:</label><br/>
+            <input type="text" id="fname" name="fname"/><br/>
+            <label for="lname">Прізвище:</label><br/>
+            <input type="text" id="lname" name="lname"/><br/>
+        </section>
 
-        <label for="gender">Стать:</label><br/>
-        <input type="radio" id="male" name="gender" value="male"/>
-        <label for="male">Чоловіча</label><br/>
-        <input type="radio" id="female" name="gender" value="female"/>
-        <label for="female">Жіноча</label><br/>
+        <section>
+            <label for="gender">Стать:</label><br/>
+            <input type="radio" id="male" name="gender" value="male"/>
+            <label for="male">Чоловіча</label><br/>
+            <input type="radio" id="female" name="gender" value="female"/>
+            <label for="female">Жіноча</label><br/>
+        </section>
 
-        <label for="birthdate">Дата народження:</label><br/>
-        <input type="date" id="birthdate" name="birthdate" max="2002-12-31"/><br/>
+        <section>
+            <label for="birthdate">Дата народження:</label><br/>
+            <input type="date" id="birthdate" name="birthdate" max="2002-12-31"/><br/>
+        </section>
 
-        <label for="email">Email:</label><br/>
-        <input type="email" id="email" name="email"/><br/>
+        <section>
+            <label for="email">Email:</label><br/>
+            <input type="email" id="email" name="email"/><br/>
+        </section>
 
-        <label for="phone">Телефон:</label><br/>
-        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-        placeholder="063-435-3568"/><br/>
+        <section>
+            <label for="phone">Телефон:</label><br/>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            placeholder="063-435-3568"/><br/>
+        </section>
 
-        <label for="bgcolor">Бажаний колір фону:</label><br/>
-        <input type="color" id="bgcolor" name="bgcolor"/><br/>
+        <section>
+            <label for="bgcolor">Бажаний колір фону:</label><br/>
+            <input type="color" id="bgcolor" name="bgcolor"/><br/>
+        </section>
 
-        <label for="country">Країна:</label><br>
-        <input type="text" id="country" name="country"/><br/>
+        <section>
+            <label for="country">Країна:</label><br>
+            <input type="text" id="country" name="country"/><br/>
+        </section>
 
-        <label for="city">Місто:</label><br/>
-        <input type="text" id="city" name="city"/><br/>
+        <section>
+            <label for="city">Місто:</label><br/>
+            <input type="text" id="city" name="city"/><br/>
+        </section>
 
-        <label for="comments">Коментар:</label><br/>
-        <textarea id="comments" name="comments" rows="6" cols="20"
-        placeholder="Ви можете додати якийсь коментар сюди."></textarea><br/>
+        <section>
+            <label for="comments">Коментар:</label><br/>
+            <textarea id="comments" name="comments" rows="6" cols="20"
+            placeholder="Ви можете додати якийсь коментар сюди."></textarea><br/>
+        </section>
 
-        <input type="submit" value="Надіслати"/>
+        <section>
+            <input type="submit" value="Надіслати"/>
+        </section>
     </form>
 </body>
 </html>
